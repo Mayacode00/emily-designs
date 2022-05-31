@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-dec{ 
+  @apply -rotate-90 mt-64 w-72 align-text-bottom text-yellow-600 absolute -bottom-2 italic text-xl right-10
+}
+.anchor{
+@apply p-4 text-lg font-normal bg-yellow-900 transition ease-in hover:scale-95 hover:text-amber-200 cursor-pointer
+}
